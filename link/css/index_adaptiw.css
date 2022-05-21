@@ -1,0 +1,400 @@
+body {
+    font-family: 'Museo Sans Cyrl 100',sans-serif ;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+div, p, form, input, a, span, button{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ul, li, p{
+    display: block;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+h1, h2, h3, h4, h5, h6{
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 1.15em;
+    font-family: 'Museo Sans Cyrl 900';
+}
+a, a:hover,a:active{
+    text-decoration: none;
+}
+a{
+    transition: all 0.2s ease;
+}
+button{
+    transition: all 0.5s ease;
+}
+.d-flex {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+}
+.justify-content-sb{
+    justify-content: space-between;
+}
+.al-it-centr{
+    align-items: center;
+}
+@font-face {
+    font-family: 'Museo Sans Cyrl 100';
+    src: url(../fonts/MuseoSansCyrl-100.eot);
+    src: url(../fonts/MuseoSansCyrl-100.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/MuseoSansCyrl-100.woff2) format('woff2'),
+        url(../fonts/MuseoSansCyrl-100.woff) format('woff')
+        url(../fonts/MuseoSansCyrl-100.svg) format('svg');
+}
+@font-face {
+    font-family: 'Museo Sans Cyrl 300';
+    src: url(../fonts/MuseoSansCyrl-300.eot);
+    src: url(../fonts/MuseoSansCyrl-300.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/MuseoSansCyrl-300.woff2) format('woff2'),
+        url(../fonts/MuseoSansCyrl-300.woff) format('woff')
+        url(../fonts/MuseoSansCyrl-300.svg) format('svg');
+}
+@font-face {
+    font-family: 'Museo Sans Cyrl 900';
+    src: url(../fonts/MuseoSansCyrl-900.eot);
+    src: url(../fonts/MuseoSansCyrl-900.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/MuseoSansCyrl-900.woff2) format('woff2'),
+        url(../fonts/MuseoSansCyrl-900.woff) format('woff')
+        url(../fonts/MuseoSansCyrl-900.svg) format('svg');
+}
+@font-face {
+    font-family: 'Natasha';
+    src: url(../fonts/Natasha.eot);
+    src: url(../fonts/Natasha.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/Natasha.woff2) format('woff2'),
+        url(../fonts/Natasha.woff) format('woff')
+        url(../fonts/Natasha.svg) format('svg');
+}
+.us-me{
+    font-family: 'Natasha';
+    font-size: 37px;
+    margin-bottom: 70px;
+    margin-top: 82px;    
+}
+/* ---------------header---------------- */
+.header{
+    color: #fff;    
+}
+.backgrand{
+    background: url(../img/bgForest.png) no-repeat center;
+    height: 845px;
+    padding-top: 54px;
+    margin: 0 auto;
+}
+.logo{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 0.06em;
+    font-family: 'Museo Sans Cyrl 900';
+}
+.nav ul li{
+    margin-right: 42px;
+}
+.navigation__fwb{
+    font-family: 'Museo Sans Cyrl 100';
+}
+.nav ul li{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Museo Sans Cyrl 900';
+}
+.info{
+    font-size: 13px;
+    font-family: 'Museo Sans Cyrl 300';
+    border-bottom: 1px solid #2f342c;
+    color: #fff;
+}
+.workOfmelifes{
+    margin-top: 280px;
+    margin-bottom: 240px;
+    text-align: center;
+}
+.workOfmeLife__h1{
+    font-size: 49px;
+    font-family: 'Natasha';
+    margin-bottom: 18px;
+}
+.workOfmeLife__h2{
+    font-size: 29px;
+    font-family: 'Museo Sans Cyrl 100';    
+}
+.nextScrean{
+    text-align: center;
+}
+.borderButton{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+        
+}
+.nextScrean__a{
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 20px;
+    padding-top: 13px;
+    padding-bottom: 16px;
+    margin-bottom: 82px;
+}
+/* ----------------section 1--------------- */
+
+.backgraund{
+    width: 440px;
+}
+.backgraund p{
+    color: #9b9c98;
+    margin-bottom: 34px;
+    font-size: 15px;
+}
+.backgraund__text_up{
+    text-transform: uppercase;
+    font-family: 'Natasha';
+    font-size: 22px;
+    color: #9b9c98;
+    margin-bottom: 42px;
+}
+.expereanc-messeng{
+    width: 465px;
+}
+.quantity{
+    font-size: 20px;
+    color: #204d15;
+    border: 7px double #c5d1c2;
+    height: 72px;
+    width: 72px;
+    text-align: center;
+    justify-content: center;    
+        
+    margin-left: 24px;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(45deg) scale(0.885) skew(1deg) translate(0px);
+    -webkit-transform: rotate(45deg) scale(0.885) skew(1deg) translate(0px);
+    -moz-transform: rotate(45deg) scale(0.885) skew(1deg) translate(0px);
+    -o-transform: rotate(45deg) scale(0.885) skew(1deg) translate(0px);
+    -ms-transform: rotate(45deg) scale(0.885) skew(1deg) translate(0px);
+}
+.quantity__text{
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform:  rotate(315deg) scale(0.885) skew(1deg) translate(0px);
+    -webkit-transform:  rotate(315deg) scale(0.885) skew(1deg) translate(0px);
+    -moz-transform:  rotate(315deg) scale(0.885) skew(1deg) translate(0px);
+    -o-transform:  rotate(315deg) scale(0.885) skew(1deg) translate(0px);
+    -ms-transform:  rotate(315deg) scale(0.885) skew(1deg) translate(0px);
+    align-items: center;
+    justify-content: center;
+}
+.Description{
+    font-size: 12px;
+    width: 120px;
+    text-align: center;
+    margin-top: 26px;
+}
+.sociel{
+    font-size: 22px;
+    font-family: 'Natasha';
+    color: #969793;
+    padding-top: 62px;
+    padding-bottom: 35px;
+}
+.link{
+    color: #204d15;
+    font-size: 14px;
+    font-family: 'Museo Sans Cyrl 300';
+    border-bottom: 1px solid #204d15;
+}
+.border{
+    background-color: #eef1ed;
+    color: #204d15;
+    width: 62px;
+    height: 62px;
+    text-align: center;
+    align-items: center;
+    padding-top: 21px;
+    font-size: 15px;
+    border-radius: 50%;
+}
+.messeng{
+    align-items: center;
+}
+.messeng-tome{
+    font-family: 'Museo Sans Cyrl 300';
+    font-size: 14px;
+    color: #d5d6d5;
+    height: 20px;
+    margin-left: 16px;
+}
+.links li{
+    margin-bottom: 14px;
+}
+/* ----------section 2----------- */
+.components__procent{
+    border: 7px double #c5d1c2;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 17px;
+    font-size: 13px;
+    color: #204d15;
+    margin-right: 28px;
+}
+.components__text{
+    font-family: 'Museo Sans Cyrl 900';
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #22241b;
+}
+.anim{
+    height: 299px;
+    position: relative;    
+}
+.anim__overlay:hover{
+    opacity: 1;
+}
+.anim__overlay{
+    font-family:'Museo Sans Cyrl 900';
+    font-size: 15px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.441);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.anim__see{
+    font-size: 13px;
+    font-family:'Museo Sans Cyrl 300';
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+/* --------------footer---------------- */
+.footer-info{
+    margin-top: 122px;
+    margin-bottom: 110px;
+    font-size: 11px;
+    font-family: 'Museo Sans Cyrl 300';
+    color: #dbdcdb;
+}
+/* ----------Media queries-------- */
+
+@media screen and (max-width: 1200px){
+     
+}
+@media screen and (max-width: 992px){
+    .container{
+        width: 700px;    
+        margin: 0 auto;    
+    }    
+    .us-me{
+        display: flex;
+        justify-content: center;
+    }
+    .page{
+        flex-direction: column;
+        align-items: center;
+    }
+    .backgraund__text_up{
+        display: flex;
+        align-content: center;
+    }
+    .sociel{
+        display: flex;
+        align-content: center;
+    }
+    .more{
+        flex-direction: column;
+        align-items: center;
+    }
+    .anim{
+        margin-bottom: 9px;
+    }
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 520px;    
+    }
+    .backgraund{
+        width: 90%;
+    }
+    .expereanc-messeng{
+        width: 90%;
+    }
+    .us-me:nth-child(){
+        width: 90%;
+        justify-content: flex-start;
+    }  
+    .navigation{
+        display: none;
+    }
+    .workOfmeLife__h1 {
+        font-size: 34px;
+    }
+    .components{
+        flex-direction: column;
+    }
+    .components li{
+        padding: 0 0 5px 50px;
+    }
+}
+@media screen and (max-width: 576px){
+    .container{
+        width: 90%;
+    }
+    .navigation{
+        display: none;
+    }
+    .exp{
+        flex-direction: column;
+    }
+    .components{
+        flex-direction: column;
+    }
+    .workOfmeLife__h1 {
+        font-size: 34px;
+    }
+    .components li{
+        padding: 0 0 5px 50px;
+    }
+    .footer{
+        width: 90%;
+    }
+    .backgraund{
+        width: 100%;
+    }
+    .expereanc-messeng{
+        width: 100%;
+    }
+    .us-me:nth-child(){
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
